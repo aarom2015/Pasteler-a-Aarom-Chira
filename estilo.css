@@ -1,0 +1,186 @@
+
+/* Fondo */
+
+body {
+    padding-top: 100px;
+    background-color:white;               /* Esto hace que la página tenga un fondo personalizado. */
+    background-size: cover;                 /* Esto hace que el fondo ocupe toda la pantalla. */
+    background-attachment: fixed;           /* Esto hace que el fondo permanezca quieto al mover la página. */
+    text-align: center;                     /* Esto centra el texto y otros elementos dentro de la página. */
+    margin: 0;                              /* Quita el margen exterior que el navegador coloca automáticamente. */
+    font-family: Arial, sans-serif;         /* Cambia el tipo de fuente del texto. */
+}
+
+/* Botones y barra de navegación */
+
+/* Barra de navegación */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("imagenes/fondo.png");
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+    background-size: cover;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Botones del menú */
+nav a {
+    display: inline-block;                   /* Permite que los enlaces se comporten como botones. */
+    background-color: rgb(195, 195, 196);  /* Cambia el color de fondo de los botones. */
+    color: rgb(7, 7, 7);                   /* Cambia el color del texto de los botones. */
+    text-decoration: none;                   /* Quita la línea que aparece debajo de los enlaces. */
+    padding: 12px 20px;                      /* Ajusta el espacio interior de los botones. */
+    margin: 5px;                             /* Separa los botones entre sí. */
+    border-radius: 5px;                      /* Redondea las esquinas de los botones. */
+}
+
+/* Efecto al pasar el mouse por los botones */
+nav a:hover {
+    background-color: rgb(116, 116, 116); /* Oscurece el fondo cuando pasas el mouse. */
+    color: white;                         /* Cambia el texto a blanco al pasar el mouse. */
+}
+
+/* Tortas de la página principal */
+.tortas1 {
+    display: inline-block;                  /* Permite colocar las tarjetas de tortas una al lado de otra. */
+    margin: 10px;                           /* Separa las imágenes entre sí. */
+    text-align: center;                      /* Centra el texto dentro de cada tarjeta. */
+}
+
+.tortas1 img {
+    width: 250px;                            /* Establece el ancho de las imágenes. */
+    height: 200px;                           /* Establece la altura de las imágenes. */
+    object-fit: cover;                       /* Evita que las imágenes se deformen al ajustar su tamaño. */
+    border-radius: 8px;                      /* Redondea las esquinas de las imágenes. */
+}
+
+/* Segunda página: imágenes de las tortas */
+.tortas2 img {
+    align-items: center;                    /* Intenta alinear los elementos; esta propiedad no suele ser necesaria en una imagen. */
+    border-radius: 8px;                     /* Redondea las esquinas de las imágenes. */
+    width: 250px;                           /* Establece el ancho de las imágenes. */
+    height: 200px;                          /* Establece la altura de las imágenes. */
+    object-fit: cover;                      /* Evita que las imágenes se deformen. */
+    margin-top: 60px;                       /* Añade espacio encima de las imágenes. */
+}
+
+/* Alineación de las imágenes, textos y botones */
+.tortas2 {
+    margin-left: 40px;                      /*esto hace q las imagenes esten un poco a la derecha*/
+    display: flex;                          /* Coloca la imagen y el contenido uno al lado del otro. */
+    margin-bottom: 20px;                    /* Separa cada sección de torta de la siguiente. */
+    align-items: center;                     /* Alinea verticalmente la imagen y el contenido. */
+    gap: 30px;                              /* Separa la imagen del texto y los botones. */
+}
+
+/* Botones de la segunda página */
+.tortas2 a {
+    display: inline-block;                    /* Permite que los enlaces se comporten como botones. */
+    background-color: rgb(195, 195, 196);   /* Coloca un fondo rosado en los botones. */
+    color: black;                           /* Establece el color del texto. */
+    text-decoration: none;                    /* Quita la línea debajo de los enlaces. */
+    padding: 10px 15px;                       /* Ajusta el espacio interior de los botones. */
+    border-radius: 80px;                      /* Redondea mucho las esquinas de los botones. */
+}
+
+/* Efecto al pasar el mouse por los botones de la segunda página */
+.tortas2 a:hover {
+    background-color: rgb(116, 116, 116);   /* Cambia el fondo a un gris más oscuro. */
+    color: white;                           /* Cambia el texto a blanco. */
+}
+
+
+/*tercera pagina:imagenes de los postres*/
+.postres img {
+    border-radius: 8px;                     /* Redondea las esquinas de las imágenes. */
+    width: 250px;                           /* Establece el ancho de las imágenes. */
+    height: 200px;                          /* Establece la altura de las imágenes. */
+    object-fit: cover;                      /* Evita que las imágenes se deformen. */
+    margin-top: 60px;                       /* Añade espacio encima de las imágenes. */
+}
+
+/* Alineación de las imágenes, textos y botones */
+.postres {
+    margin-left: 40px;
+    display: flex;                          /* Coloca la imagen y el contenido uno al lado del otro. */
+    margin-bottom: 10px;                    /* Separa cada sección de torta de la siguiente. */
+    align-items: center;                    /* Alinea verticalmente la imagen y el contenido. */
+    gap: 30px;                              /* Separa la imagen del texto y los botones. */
+}
+/*botones de la tercera pagina*/
+.postres a {
+    display: inline-block;                    /* Permite que los enlaces se comporten como botones. */
+    background-color: rgb(195, 195, 196);   /* Coloca un fondo rosado en los botones. */
+    color: black;                           /* Establece el color del texto. */
+    text-decoration: none;                    /* Quita la línea debajo de los enlaces. */
+    padding: 10px 15px;                       /* Ajusta el espacio interior de los botones. */
+    border-radius: 80px;                      /* Redondea mucho las esquinas de los botones. */
+}
+
+/* Efecto al pasar el mouse por los botones de la segunda página */
+.postres a :hover {
+    background-color: rgb(116, 116, 116);   /* Cambia el fondo a un gris más oscuro. */
+    color: white;                           /* Cambia el texto a blanco. */
+}
+
+/*boton de bocadito al final*/
+.boton1 a {
+    display: inline-block;                    /* Permite que los enlaces se comporten como botones. */
+    background-color: rgb(195, 195, 196);   /* Coloca un fondo rosado en los botones. */
+    color: black;                           /* Establece el color del texto. */
+    text-decoration: none;                    /* Quita la línea debajo de los enlaces. */
+    padding: 10px 15px;                       /* Ajusta el espacio interior de los botones. */
+    border-radius: 80px;                      /* Redondea mucho las esquinas de los botones. */
+}
+
+.nosotros {
+    width: 500px;
+    margin: 40px auto;
+}
+
+
+.nosotros img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+/* Logo principal */
+#logo {
+    width: 700px; /* Establece el ancho del logo principal. */
+    height: 350px; /* Establece la altura del logo principal. */
+}
+
+/* Mantiene los botones del menú a la izquierda */
+.menu {
+    display: flex;                             /* Coloca los botones del menú en una fila. */
+    align-items: center;                        /* Alinea los botones verticalmente en el centro. */
+}
+.menu2{
+    display: flex;
+    align-items: center; 
+    margin-right: 900px; 
+
+}
+
+
+
+/* Tamaño del logo pequeño de la barra */
+#logo-menu {
+    position: absolute;
+    right: 60px;
+    top:-3px;
+    width:180px !important;                                  /* Establece el ancho del logo del menú. */
+    height: auto                               /* Establece la altura del logo del menú. */
+    object-fit: contain;                                     /* Mantiene las proporciones del logo sin deformarlo. */
+}
