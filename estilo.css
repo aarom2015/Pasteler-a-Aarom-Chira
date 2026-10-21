@@ -77,7 +77,7 @@ nav a:hover {
 
 
 /* =========================================================
-   SEGUNDA PÁGINA: TORTAS
+   SEGUNDA Y TERCERA PÁGINA: TORTAS, BOCADITOS
    ========================================================= */
 
 /* Imágenes de la segunda página */
@@ -238,4 +238,20 @@ nav a:hover {
     width: 180px !important;            /* Establece el ancho del logo. */
     height: auto;                       /* Mantiene automáticamente la proporción del logo. */
     object-fit: contain;                /* Mantiene la imagen dentro del espacio sin deformarla. */
+}
+
+/* =========================================================
+   ADAPTACIÓN PARA CELULARES
+   ========================================================= */
+
+/* Estos estilos solamente se aplican cuando la pantalla
+   tiene un ancho de 600px o menos. */
+@media (max-width: 600px) {
+
+/* Menú de navegación en celulares */
+.menu {
+    flex-wrap: wrap;           /* Permite que los botones bajen a otra fila si no caben. */
+     justify-content: center;   /* Centra los botones horizontalmente. */
+}
+
 }
