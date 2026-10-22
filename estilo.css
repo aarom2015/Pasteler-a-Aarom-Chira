@@ -218,12 +218,7 @@ nav a:hover {
 }
 
 
-/* Segundo menú */
-.menu2 {
-    display: flex;                      /* Coloca los elementos en una fila. */
-    align-items: center;                /* Alinea los elementos verticalmente. */
-    margin-right: 900px;                /* Agrega un gran espacio hacia la derecha. */
-}
+
 
 
 /* =========================================================
@@ -252,6 +247,12 @@ nav a:hover {
 .menu {
     flex-wrap: wrap;           /* Permite que los botones bajen a otra fila si no caben. */
      justify-content: center;   /* Centra los botones horizontalmente. */
+}
+
+/* Logo principal en celulares */
+#logo {
+    max-width: 100%;       /* Evita que el logo sea más ancho que la pantalla. */
+    height: auto;          /* Mantiene la proporción original del logo. */
 }
 
 }
