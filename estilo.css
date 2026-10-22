@@ -228,7 +228,7 @@ nav a:hover {
     position: absolute;                 /* Permite colocar el logo en una posición específica. */
     right: 60px;                        /* Coloca el logo a 60px del lado derecho. */
     top: -3px;                          /* Coloca el logo un poco hacia arriba. */
-    width: 180px !important;            /* Establece el ancho del logo. */
+    width: 180px;                       /* Establece el ancho del logo. */
     height: auto;                       /* Mantiene automáticamente la proporción del logo. */
     object-fit: contain;                /* Mantiene la imagen dentro del espacio sin deformarla. */
 }
@@ -252,7 +252,7 @@ nav a:hover {
     max-width: 100%;       /* Evita que el logo sea más ancho que la pantalla. */
     height: auto;          /* Mantiene la proporción original del logo. */
 }
-
+/*logo chiquito*/
 #logo-menu {
     position: static;          /* Hace que el logo vuelva al flujo normal de la barra. */
     width: 80px;               /* Reduce el tamaño del logo para que ocupe menos espacio. */
