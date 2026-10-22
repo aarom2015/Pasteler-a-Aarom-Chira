@@ -219,8 +219,6 @@ nav a:hover {
 
 
 
-
-
 /* =========================================================
    LOGO PEQUEÑO DE LA BARRA
    ========================================================= */
@@ -253,6 +251,13 @@ nav a:hover {
 #logo {
     max-width: 100%;       /* Evita que el logo sea más ancho que la pantalla. */
     height: auto;          /* Mantiene la proporción original del logo. */
+}
+
+#logo-menu {
+    position: static;          /* Hace que el logo vuelva al flujo normal de la barra. */
+    width: 80px;               /* Reduce el tamaño del logo para que ocupe menos espacio. */
+    height: auto;              /* Mantiene la proporción del logo. */
+    object-fit: contain;       /* Evita que el logo se deforme. */
 }
 
 }
